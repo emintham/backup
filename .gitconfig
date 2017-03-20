@@ -1,0 +1,20 @@
+[user]
+	name = Emin Tham
+	email = emintham@gmail.com
+[core]
+  editor = nvim
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  excludesfile = ~/.gitignore
+[alias]
+  a = add
+  br = branch
+  ci = commit
+  co = checkout
+  del = branch -D
+  fpoh = push -f origin HEAD
+  l = log --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  poh = push origin HEAD
+  rb = rebase
+  soft = reset --soft
+  st = status
+  su = stash --keep-index
